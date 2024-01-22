@@ -1,0 +1,18 @@
+venv/*
+.idea/*
+.vscode/*
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+.env
+
+*.DS_Store
+
+### Testing ###
+htmlcov/*
+.pytest_cache/*
+.coverage
