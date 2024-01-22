@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ object.name }}</h5>
+          <p class="card-text">
+              <span style="font-size:5em;">
+                  <i class="fa fa-file-video-o" aria-hidden="true"></i>
+              </span>
+          </p>
+          <p>Year: {{ object.year_released }}</p>
+          <p>Genre: {{ object.genres_linked }}</p>
+        <td><a href="/movie/update">Edit</a></td>
+      </div>
+    </div>
+
+{% endblock %}
